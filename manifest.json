@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Simple PNG",
+    "version": "1.0",
+    "description": "Captures a screenshot of the current tab and allows the user to download it as a PNG file. For Shalle ",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
